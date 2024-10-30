@@ -1,0 +1,7 @@
+---
+{"dg-publish":true,"permalink":"/civil-society/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.737+08:00"}
+---
+
+Masyarakat Sivil
+
+CIVICUS <iframe src="https://www.civicus.org/"></iframe>
