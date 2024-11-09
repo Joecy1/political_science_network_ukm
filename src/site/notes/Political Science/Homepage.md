@@ -5,7 +5,7 @@
 [[Purpose\|Purpose]]
 [[Political Science/Guide of the website\|Guide of the website]]
 [[Map of Content\|Map of Content]]
-	[[UKM Political science semester\|UKM Political science semester]]
+	[[Political Science/UKM Political science semester\|UKM Political science semester]]
 	Real world application and case study
 [[People\|People]]
 [[Malaysia polity\|Malaysia polity]]
