@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Source"],"title":"The order of time","authors":"Carlo Rovelli","year":2018,"publisher":null,"keywords":null,"citekey":"rovelliOrderTime2018","source":"libby","permalink":"/rovelli-order-time2018/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.815+08:00"}
+{"dg-publish":true,"tags":["Source"],"title":"The order of time","authors":"Carlo Rovelli","year":2018,"publisher":null,"keywords":null,"citekey":"rovelliOrderTime2018","source":"libby","permalink":"/rovelli-order-time2018/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.815+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"tags":["Source","theory"],"title":"Guide to methods for students of political science","authors":"Stephen Van Evera","year":1997,"publisher":null,"keywords":["theory"],"citekey":"vaneveraGuideMethodsStudents1997","dg-publish":true,"permalink":"/vanevera-guide-methods-students1997/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.830+08:00"}
+{"tags":["Source","theory"],"title":"Guide to methods for students of political science","authors":"Stephen Van Evera","year":1997,"publisher":null,"keywords":["theory"],"citekey":"vaneveraGuideMethodsStudents1997","dg-publish":true,"permalink":"/vanevera-guide-methods-students1997/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.830+08:00"}
 ---
 
 

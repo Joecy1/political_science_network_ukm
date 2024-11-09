@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Source"],"title":"The craft of political research","authors":"W. Phillips Shively","year":2009,"publisher":null,"keywords":[],"citekey":"shivelyCraftPoliticalResearch2009","permalink":"/shively-craft-political-research2009/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.815+08:00"}
+{"dg-publish":true,"tags":["Source"],"title":"The craft of political research","authors":"W. Phillips Shively","year":2009,"publisher":null,"keywords":[],"citekey":"shivelyCraftPoliticalResearch2009","permalink":"/shively-craft-political-research2009/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.815+08:00"}
 ---
 
 

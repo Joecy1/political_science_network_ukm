@@ -1,5 +1,5 @@
 ---
-{"up":["[[Sem 5 MOC]]"],"dg-publish":true,"permalink":"/year-3-sem-1-exam-preparation/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.846+08:00"}
+{"up":["[[Sem 5 MOC]]"],"dg-publish":true,"permalink":"/year-3-sem-1-exam-preparation/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.846+08:00"}
 ---
 
 - Exams

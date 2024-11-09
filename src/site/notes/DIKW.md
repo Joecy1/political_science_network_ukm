@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/dikw/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.737+08:00"}
+{"dg-publish":true,"permalink":"/dikw/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.737+08:00"}
 ---
 
 # DIKW

@@ -1,5 +1,5 @@
 ---
-{"profileName":"Chan Yew Joe","postId":353,"postType":"post","categories":5768,"dg-publish":true,"permalink":"/untitled-1/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-09-08T18:26:05.739+08:00"}
+{"profileName":"Chan Yew Joe","postId":353,"postType":"post","categories":5768,"dg-publish":true,"permalink":"/untitled-1/","dgPassFrontmatter":true,"created":"2024-09-08T18:26:05.739+08:00"}
 ---
 
 

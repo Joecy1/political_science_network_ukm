@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/content-prompt/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-10-20T19:15:16.738+08:00"}
+{"dg-publish":true,"permalink":"/content-prompt/","dgPassFrontmatter":true,"created":"2024-10-20T19:15:16.738+08:00"}
 ---
 
 # Content prompt

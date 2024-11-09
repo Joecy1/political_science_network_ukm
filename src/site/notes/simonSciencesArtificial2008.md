@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Source"],"title":"The sciences of the artificial","authors":"Herbert A. Simon","year":2008,"publisher":null,"keywords":null,"citekey":"simonSciencesArtificial2008","permalink":"/simon-sciences-artificial2008/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.815+08:00"}
+{"dg-publish":true,"tags":["Source"],"title":"The sciences of the artificial","authors":"Herbert A. Simon","year":2008,"publisher":null,"keywords":null,"citekey":"simonSciencesArtificial2008","permalink":"/simon-sciences-artificial2008/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.815+08:00"}
 ---
 
 
