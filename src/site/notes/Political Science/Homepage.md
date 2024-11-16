@@ -2,7 +2,7 @@
 {"dg-home":true,"dg-publish":true,"permalink":"/political-science/homepage/","tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2024-11-01T10:16:42.381+08:00"}
 ---
 
-- [[Purpose\|Purpose]]
+- [[Others/Purpose\|Purpose]]
 - [[Political Science/Guide of the website\|Guide of the website]]
 - [[Map of Content\|Map of Content]]
 	- [[Political Science/UKM Political science semester\|UKM Political science semester]]
@@ -10,7 +10,7 @@
 - [[People\|People]]
 - [[Malaysia polity\|Malaysia polity]]
 - [[Malaysia history\|Malaysia history]]
-- [[ASEAN\|ASEAN]]
+- [[Others/ASEAN\|ASEAN]]
 - [[European union\|European union]]
 - [[United States\|United States]]
 - [[China\|China]]
