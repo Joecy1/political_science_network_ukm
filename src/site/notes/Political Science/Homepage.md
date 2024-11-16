@@ -5,8 +5,8 @@
 - [[Others/Purpose\|Purpose]]
 - [[Political Science/Guide of the website\|Guide of the website]]
 - [[Map of Content\|Map of Content]]
-	- [[Political Science/UKM Political science semester\|UKM Political science semester]]
-	- Real world application and case study
+- [[Political Science/UKM Political science semester\|UKM Political science semester]]
+- Real world application and case study
 - [[People\|People]]
 - [[Malaysia polity\|Malaysia polity]]
 - [[Malaysia history\|Malaysia history]]
@@ -15,7 +15,6 @@
 - [[United States\|United States]]
 - [[China\|China]]
 - [[Legal\|Legal]]
-
 - [[Political Science/Website policy\|Website policy]]
 - [[Political Science/Road map of the website\|Road map of the website]]
 - [[Political Science/Political science resources\|Political science resources]]
