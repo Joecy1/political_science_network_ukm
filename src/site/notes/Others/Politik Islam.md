@@ -1,5 +1,5 @@
 ---
-{"mindmap-plugin":"rich","dg-publish":true,"permalink":"/others/politik-islam/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.799+08:00"}
+{"mindmap-plugin":"rich","dg-publish":true,"permalink":"/others/politik-islam/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.799+08:00"}
 ---
 
 

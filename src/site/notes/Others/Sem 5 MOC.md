@@ -1,5 +1,5 @@
 ---
-{"up":"[[Home]]","dg-publish":true,"permalink":"/others/sem-5-moc/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.815+08:00"}
+{"up":"[[Home]]","dg-publish":true,"permalink":"/others/sem-5-moc/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.815+08:00"}
 ---
 
 # Sem 5 MOC

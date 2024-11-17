@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"tags":["Source"],"title":"Philosophy, Theory, Ideology: An Attempt at Clarification","authors":"Nannerl O. Keohane","year":1976,"publisher":"Political Theory","keywords":null,"citekey":"keohanePhilosophyTheoryIdeology1976","permalink":"/others/keohane-philosophy-theory-ideology1976/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.768+08:00"}
+{"dg-publish":true,"tags":["Source"],"title":"Philosophy, Theory, Ideology: An Attempt at Clarification","authors":"Nannerl O. Keohane","year":1976,"publisher":"Political Theory","keywords":null,"citekey":"keohanePhilosophyTheoryIdeology1976","permalink":"/others/keohane-philosophy-theory-ideology1976/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.768+08:00"}
 ---
 
 

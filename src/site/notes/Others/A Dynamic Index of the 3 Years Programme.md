@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/a-dynamic-index-of-the-3-years-programme/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.705+08:00"}
+{"dg-publish":true,"permalink":"/others/a-dynamic-index-of-the-3-years-programme/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.705+08:00"}
 ---
 
 A dual-language UKM Political Science efforts to empower the publics on politics.

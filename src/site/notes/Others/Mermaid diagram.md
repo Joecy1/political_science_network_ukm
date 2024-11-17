@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/mermaid-diagram/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.784+08:00"}
+{"dg-publish":true,"permalink":"/others/mermaid-diagram/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.784+08:00"}
 ---
 
 flowchart TD

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/atlas/how-tos-moc/","dgPassFrontmatter":true,"created":"2024-11-17T02:16:09.664+08:00"}
+{"dg-publish":true,"permalink":"/atlas/how-tos-moc/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-17T02:16:09.664+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"x":"[[Homepage]]","permalink":"/others/lecture-and-real-world/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.768+08:00"}
+{"dg-publish":true,"x":"[[Homepage]]","permalink":"/others/lecture-and-real-world/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.768+08:00"}
 ---
 
 

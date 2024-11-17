@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":null,"permalink":"/others/information/","dgPassFrontmatter":true,"created":"2024-10-11T10:31:38.187+08:00"}
+{"dg-publish":true,"dg-home":null,"permalink":"/others/information/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-10-11T10:31:38.187+08:00"}
 ---
 
 # Information

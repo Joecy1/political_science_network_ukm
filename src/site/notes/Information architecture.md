@@ -7,3 +7,7 @@ The structure of a book has a purpose. The title, subtitle, and the genre serve 
 Index card was the old way of how a library organise the books in a library. it records the bibliographical information of the book. In modern book, it is often fall in the copyright page. Some book has a page that introduce the author. Depending on the type of the book, the author can be important. Some books must be read with the author background in mind. Some books are independent of who the author is and self-contained. 
 
 ![A book information structure.png](/img/user/Extras/Media/A%20book%20information%20structure.png)
+Why is information architecture is something worth mentioning? 
+Today, Instagram, TikTok, YouTube, Google, and etc are the new forms of "index". They are the new way in which we organise information and find things. This is no wonder why we are more tend to scroll through social media then to read books. It is because the engineer behind those companies are constantly working to design better user experience for you. Improving their algorithm to help you find what you want to find better, be it consciously or subconsciously.
+
+We have three way out - one is to accept it as it is and let the entertainment takes precedence, another is to create a an interface that will help us curate our precious attention for ourselves or make the valuable information consumption in a more thoughtful and well design way. 

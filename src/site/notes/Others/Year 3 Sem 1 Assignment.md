@@ -1,5 +1,5 @@
 ---
-{"date-modified":"2023-11-19","up":["[[Sem 5 MOC]]"],"dg-publish":true,"permalink":"/others/year-3-sem-1-assignment/","dgPassFrontmatter":true,"created":"2024-07-22T00:25:26.830+08:00"}
+{"date-modified":"2023-11-19","up":["[[Sem 5 MOC]]"],"dg-publish":true,"permalink":"/others/year-3-sem-1-assignment/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.830+08:00"}
 ---
 
 
