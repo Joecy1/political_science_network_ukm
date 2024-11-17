@@ -76,19 +76,19 @@
 ### ⭐ Interesting point, Facts, Examples
 
 > [!quote|yellow]+ Image ([page. 8](zotero://open-pdf/library/items/QQN5BWXX?page=8&annotation=F94V8YUX))
-> ![[Media-8-x52-y43.png\|Media-8-x52-y43.png]]
+> ![Media-8-x52-y43.png](/img/user/Extras/Media/shivelyCraftPoliticalResearch2009/Media-8-x52-y43.png)
 
 > [!quote|yellow]+ Image ([page. 13](zotero://open-pdf/library/items/QQN5BWXX?page=13&annotation=33D6J6QJ))
-> ![[Media-13-x434-y401.png\|Media-13-x434-y401.png]]
+> ![Media-13-x434-y401.png](/img/user/Extras/Media/shivelyCraftPoliticalResearch2009/Media-13-x434-y401.png)
 
 > [!quote|yellow]+ Image ([page. 18](zotero://open-pdf/library/items/QQN5BWXX?page=18&annotation=VGEWX4Y4))
-> ![[Media-18-x433-y338.png\|Media-18-x433-y338.png]]
+> ![Media-18-x433-y338.png](/img/user/Extras/Media/shivelyCraftPoliticalResearch2009/Media-18-x433-y338.png)
 *Imported: 2023-12-30 01:27*
 
 ### ⭐ Interesting point, Facts, Examples
 
 > [!quote|yellow]+ Image ([page. 25](zotero://open-pdf/library/items/QQN5BWXX?page=25&annotation=FVCKRR7W))
-> ![[Media-25-x438-y46.png\|Media-25-x438-y46.png]]
+> ![Media-25-x438-y46.png](/img/user/Extras/Media/shivelyCraftPoliticalResearch2009/Media-25-x438-y46.png)
 
 
 ---

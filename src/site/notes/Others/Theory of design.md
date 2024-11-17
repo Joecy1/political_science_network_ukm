@@ -18,7 +18,7 @@
 - (Simon, 2008, p. 146)
 
 ## The Curriculum for Social Design
-![[Pasted image 20231208004906.png\|Pasted image 20231208004906.png]]
+![Pasted image 20231208004906.png](/img/user/Extras/Media/Pasted%20image%2020231208004906.png)
 - “Design, on the other hand, is concerned with how things ought to be, with devising artifacts to attain goals.” (Simon, 2008, p. 126)
 - “a process of cyclical interaction between painter and canvas” (Simon, 2008, p. 175)
 - “the task of science is to make use of the world's redundancy to describe that world simply.” (Simon, 2008, p. 221)

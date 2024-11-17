@@ -265,7 +265,7 @@
 > evolution brings about a proliferation of niches 
 
 > [!quote|yellow]+ Image ([page. 178](zotero://open-pdf/library/items/L6PT7NKH?page=178&annotation=FQEHI83L))
-> ![[Extras/Media/simonSciencesArtificial2008/Media-178-x24-y117.png\|Extras/Media/simonSciencesArtificial2008/Media-178-x24-y117.png]]
+> ![Extras/Media/simonSciencesArtificial2008/Media-178-x24-y117.png](/img/user/Extras/Media/simonSciencesArtificial2008/Media-178-x24-y117.png)
 > - **The Curriculum for Social Design**
 
 > [!quote|yellow]+ Highlight ([page. 178](zotero://open-pdf/library/items/L6PT7NKH?page=178&annotation=SEUV89SV))

@@ -10,8 +10,8 @@
 
 | Subjek | Questions | Konsep/Definisi/Teori | Esei (Essay memorisation) | Nota | Core text | 
 | --- | --- | --- | --- | --- | ---| 
-|[[Political Science/Sem 5/SKSJ3143 Ekonomi Politik Antarabangsa (EPA)/SKSJ3143 Ekonomi Politik Antarabangsa\|SKSJ3143 Ekonomi Politik Antarabangsa]]|
-|[[Political Science/Sem 5/SKSJ3133 Politik Eropah/SKSJ3123 Politik Eropah\|SKSJ3123 Politik Eropah]]|
-|[[Political Science/Sem 5/SKSK3123 Politik Amerika/SKSK3123 Politik Amerika\|SKSK3123 Politik Amerika]]|
-|[[Political Science/Sem 5/SKSJ3153 Politik Hubungan Etnik (PHE)/SKSJ3153 Politik Hubungan Etnik\|SKSJ3153 Politik Hubungan Etnik]]|
-|[[Political Science/Sem 5/SKSJ3013 Politik dan Masyarakat/SKSJ3013 Politik dan Masyarakat\|SKSJ3013 Politik dan Masyarakat]]|
+|[[01 Political Science/Syllabus/Sem 5/SKSJ3143 Ekonomi Politik Antarabangsa (EPA)/SKSJ3143 Ekonomi Politik Antarabangsa\|SKSJ3143 Ekonomi Politik Antarabangsa]]|
+|[[01 Political Science/Syllabus/Sem 5/SKSJ3133 Politik Eropah/SKSJ3123 Politik Eropah\|SKSJ3123 Politik Eropah]]|
+|[[01 Political Science/Syllabus/Sem 5/SKSK3123 Politik Amerika/SKSK3123 Politik Amerika\|SKSK3123 Politik Amerika]]|
+|[[01 Political Science/Syllabus/Sem 5/SKSJ3153 Politik Hubungan Etnik (PHE)/SKSJ3153 Politik Hubungan Etnik\|SKSJ3153 Politik Hubungan Etnik]]|
+|[[01 Political Science/Syllabus/Sem 5/SKSJ3013 Politik dan Masyarakat/SKSJ3013 Politik dan Masyarakat\|SKSJ3013 Politik dan Masyarakat]]|

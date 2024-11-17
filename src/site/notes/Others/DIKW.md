@@ -57,7 +57,7 @@ It is significant to highlight on what is digital. Digital means 0 and 1. That i
 - Trial and error
 - Practice is the only criterion to test truth
 
-X:: Research, Design, Research design, Design Thinking, [[Others/Learning\|Learning]], [[Others/Liberal Arts\|Liberal Arts]], Problem Solving, [[Others/Logic\|Logic]], [[Others/Information theory\|Information theory]]
+X:: Research, Design, Research design, Design Thinking, [[Others/Learning\|Learning]], [[Others/Liberal Arts\|Liberal Arts]], Problem Solving, [[Others/Logic\|Others/Logic]], [[Others/Information theory\|Information theory]]
 
 The use of tools to aid imagination, ease the storage and retrieval process, 
 
