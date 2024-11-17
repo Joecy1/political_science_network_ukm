@@ -9,7 +9,8 @@ It is my *practice*[^1].
 
 This is the tribe. The tribe are people like us do things liek this. 
 
+I will be focusing on writing about ......
 [[Others/Political psychology\|Political psychology]]
-
+Good governance
 
 [^1]: See *The Practice* by Seth Godin

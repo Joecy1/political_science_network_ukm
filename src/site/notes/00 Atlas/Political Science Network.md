@@ -6,7 +6,7 @@
 - [[01 Political Science/Guide of the website\|Guide of the website]]
 - [[Map of Content\|Map of Content]]
 - [[01 Political Science/UKM Political science semester\|UKM Political science semester]]
-- [[00 Atlas/Multimodal learning method\|Multimodal learning method]]
+- [[Multimodal learning method\|Multimodal learning method]]
 - Real world application and case study
 - [[People\|People]]
 - [[Malaysia Polity\|Malaysia polity]]
@@ -17,6 +17,6 @@
 - [[China\|China]]
 - [[Legal\|Legal]]
 - [[01 Political Science/Website policy\|Website policy]]
-- [[01 Political Science/Road map of the website\|Road map of the website]]
+- [[01 Political Science/Roadmap of the website\|Roadmap of the website]]
 - [[01 Political Science/Political science resources\|Political science resources]]
 - [[01 Political Science/Alumni/Sains Politik 2024/Contributors\|Contributors]]
