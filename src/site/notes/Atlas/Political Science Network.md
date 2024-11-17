@@ -1,5 +1,5 @@
 ---
-{"dg-home":true,"dg-publish":true,"permalink":"/atlas/political-science-network/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-01T10:16:42.381+08:00"}
+{"dg-publish":true,"permalink":"/atlas/political-science-network/","tags":["gardenEntry"],"noteIcon":"","created":"2024-11-01T10:16:42.381+08:00"}
 ---
 
 - [[Others/Purpose\|Purpose]]

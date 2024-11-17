@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-17T22:06:12.101+08:00"}
+{"dg-publish":true,"permalink":"/index/","noteIcon":"","created":"2024-11-17T22:06:12.101+08:00"}
 ---
 
 Index is usually placed at the end of the book to help you locate the specific keywords. Index is also being used by encyclopaedia to help you locate the respective words you would like to find among the volumes. Index in a book can be replaced by several function in digital space. 

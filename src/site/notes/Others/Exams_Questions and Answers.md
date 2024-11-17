@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/exams-questions-and-answers/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-08-25T21:14:43.973+08:00"}
+{"dg-publish":true,"permalink":"/others/exams-questions-and-answers/","noteIcon":"","created":"2024-08-25T21:14:43.973+08:00"}
 ---
 
 We give out all the exam and answers here because we believe you are not here to memorise the Q&A. We do it because this give you a sense of what is important to your lecturer or what they want you to learn out of the class. This does not means this is THE thing that you should learn. We do this so that you can compare with the other political science course around the world to see what are the same and what are the differences. Sounds familiar? Yes, this is a concept similar to comparative politics by systematically comparing the similarity and differences, you learn. 

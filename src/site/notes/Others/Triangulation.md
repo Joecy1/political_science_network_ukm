@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/triangulation/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.830+08:00"}
+{"dg-publish":true,"permalink":"/others/triangulation/","noteIcon":"","created":"2024-07-22T00:25:26.830+08:00"}
 ---
 
 

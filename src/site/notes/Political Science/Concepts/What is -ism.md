@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/political-science/concepts/what-is-ism/","dgPassFrontmatter":true,"noteIcon":"","created":"2023-07-24T19:32:35.782+08:00"}
+{"dg-publish":true,"permalink":"/political-science/concepts/what-is-ism/","noteIcon":"","created":"2023-07-24T19:32:35.782+08:00"}
 ---
 
 Every subject has its own terminology.

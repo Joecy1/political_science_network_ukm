@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/chan-yew-joe/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-10-12T12:40:22.426+08:00"}
+{"dg-publish":true,"permalink":"/others/chan-yew-joe/","noteIcon":"","created":"2024-10-12T12:40:22.426+08:00"}
 ---
 
 Why do I contribute to these pages?

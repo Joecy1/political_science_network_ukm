@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/atlas/political-science-moc/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-17T21:40:40.243+08:00"}
+{"dg-publish":true,"permalink":"/atlas/political-science-moc/","noteIcon":"","created":"2024-11-17T21:40:40.243+08:00"}
 ---
 
 ## Introduction

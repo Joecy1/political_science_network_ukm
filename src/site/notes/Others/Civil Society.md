@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/civil-society/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-07-22T00:25:26.737+08:00"}
+{"dg-publish":true,"permalink":"/others/civil-society/","noteIcon":"","created":"2024-07-22T00:25:26.737+08:00"}
 ---
 
 Masyarakat Sivil

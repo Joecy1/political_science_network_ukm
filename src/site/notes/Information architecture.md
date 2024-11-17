@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/information-architecture/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-11-17T21:55:08.563+08:00"}
+{"dg-publish":true,"permalink":"/information-architecture/","noteIcon":"","created":"2024-11-17T21:55:08.563+08:00"}
 ---
 
 # Information architecture

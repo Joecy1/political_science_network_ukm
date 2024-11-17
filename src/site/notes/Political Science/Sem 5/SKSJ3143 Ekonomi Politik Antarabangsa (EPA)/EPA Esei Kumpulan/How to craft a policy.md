@@ -1,5 +1,5 @@
 ---
-{"tags":["howto"],"dg-publish":true,"permalink":"/political-science/sem-5/sksj-3143-ekonomi-politik-antarabangsa-epa/epa-esei-kumpulan/how-to-craft-a-policy/","dgPassFrontmatter":true,"noteIcon":"","created":"2024-01-06T20:44:22.843+08:00"}
+{"dg-publish":true,"permalink":"/political-science/sem-5/sksj-3143-ekonomi-politik-antarabangsa-epa/epa-esei-kumpulan/how-to-craft-a-policy/","tags":["howto"],"noteIcon":"","created":"2024-01-06T20:44:22.843+08:00"}
 ---
 
 1. Problem identification 
