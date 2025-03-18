@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/vanevera-guide-methods-students1997/","title":"Guide to methods for students of political science","tags":["Source","theory"],"noteIcon":"","created":"2024-07-22T00:25:26.830+08:00"}
+{"dg-publish":true,"permalink":"/others/vanevera-guide-methods-students1997/","title":"Guide to methods for students of political science","tags":["Source","theory"],"noteIcon":"","created":"2025-02-28T15:55:15.108+08:00"}
 ---
 
 

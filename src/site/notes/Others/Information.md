@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/information/","noteIcon":"","created":"2024-10-11T10:31:38.187+08:00"}
+{"dg-publish":true,"permalink":"/others/information/","noteIcon":"","created":"2025-02-28T15:55:15.035+08:00"}
 ---
 
 # Information

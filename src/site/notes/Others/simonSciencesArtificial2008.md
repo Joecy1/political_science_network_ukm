@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/simon-sciences-artificial2008/","title":"The sciences of the artificial","tags":["Source"],"noteIcon":"","created":"2024-07-22T00:25:26.815+08:00"}
+{"dg-publish":true,"permalink":"/others/simon-sciences-artificial2008/","title":"The sciences of the artificial","tags":["Source"],"noteIcon":"","created":"2025-02-28T15:55:15.155+08:00"}
 ---
 
 

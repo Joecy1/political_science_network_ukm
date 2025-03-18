@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/tags/","noteIcon":"","created":"2024-11-17T02:04:22.331+08:00"}
+{"dg-publish":true,"permalink":"/tags/","noteIcon":"","created":"2025-02-28T15:55:20.433+08:00"}
 ---
 
 # Tags for Political Science Directory

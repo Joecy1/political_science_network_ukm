@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/alatas-sociological-theory-canon2017/","title":"Sociological theory beyond the canon","tags":["Source"],"noteIcon":"","created":"2024-07-22T00:25:26.705+08:00"}
+{"dg-publish":true,"permalink":"/others/alatas-sociological-theory-canon2017/","title":"Sociological theory beyond the canon","tags":["Source"],"noteIcon":"","created":"2025-02-28T15:55:15.543+08:00"}
 ---
 
 

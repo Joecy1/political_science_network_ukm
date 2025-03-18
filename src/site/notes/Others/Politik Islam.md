@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/politik-islam/","noteIcon":"","created":"2024-07-22T00:25:26.799+08:00"}
+{"dg-publish":true,"permalink":"/others/politik-islam/","noteIcon":"","created":"2025-02-28T15:55:15.187+08:00"}
 ---
 
 

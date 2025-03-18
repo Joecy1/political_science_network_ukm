@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/jenniferbothamley-dictionary-theories1993/","title":"Dictionary of Theories","tags":["Source","theory"],"noteIcon":"","created":"2024-07-22T00:25:26.752+08:00"}
+{"dg-publish":true,"permalink":"/others/jenniferbothamley-dictionary-theories1993/","title":"Dictionary of Theories","tags":["Source","theory"],"noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
 ---
 
 
