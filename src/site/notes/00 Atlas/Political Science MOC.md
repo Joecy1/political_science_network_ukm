@@ -133,5 +133,44 @@
 
 ---
 
+
+# Political Science MOC
+Concepts
+Theory
+Institution
+Organisation
+
+## UKM
+- [[Overall\|Overall]]
+- [[01 Political Science/Sem 1\|Sem 1]]
+- [[01 Political Science/Sem 2\|Sem 2]]
+- [[01 Political Science/Sem 3\|Sem 3]]
+- [[01 Political Science/Syllabus/Sem 5/Sem 4/Sem 4\|Sem 4]]
+- [[Sem 5\|Sem 5]]
+- [[01 Political Science/Sem 6\|Sem 6]]
+- [[01 Political Science/Sem 7\|Sem 7]]
+- Total results
+- [[01 Political Science/Political science resources\|Political Science Resources]]
+
+## Benchmarking World-class Lectures
+- Subjects
+    - Philosophy, Politics, Economics (PPE)
+    - Political Science
+    - Data Science
+    - Computer Science
+    - Maths
+        - Statistics
+        - Probability
+- School
+    - MIT
+    - NUS
+    - Oxford
+    - LSE
+    - [清华政治学与行政学专业本科培养方案](https://ukmedumy-my.sharepoint.com/:b:/g/personal/a189386_siswa_ukm_edu_my/EZn1XhwtJ3BOojm_YkyB8ZwBfR2nvmJYjQ6mWIY4w2Xn0w?e=rOKqee)
+    - [复旦哲学课纲](https://philosophy.fudan.edu.cn/_upload/article/files/23/7c/b2868aae4e62aead8c266e8c5903/7eaf6868-ce85-40f8-8516-1bc377829642.pdf)
+
+
+
+---
 ## Conclusion
 Political Science is a dynamic and interdisciplinary field that provides valuable insights into governance, power, and societal dynamics. This directory serves as a foundational guide to explore its various dimensions.
