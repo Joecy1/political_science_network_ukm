@@ -185,3 +185,77 @@ h1 {
     color: var(--text-accent);
     margin: 0 0 0.8rem 0;
 }
+
+/* ====================== COLLAPSIBLE SIDE PANELS ====================== */
+
+/* Left Sidebar (Filetree) */
+.left-sidebar {
+    transition: width 0.3s ease, min-width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-sidebar.collapsed {
+    width: 60px !important;
+    min-width: 60px !important;
+}
+
+/* Right Sidebar */
+.right-sidebar,
+.sidebar-right,
+.dg-right-sidebar {
+    transition: width 0.3s ease, min-width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-sidebar.collapsed,
+.sidebar-right.collapsed,
+.dg-right-sidebar.collapsed {
+    width: 50px !important;
+    min-width: 50px !important;
+}
+
+/* Toggle buttons */
+.sidebar-toggle {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: var(--background-secondary);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    border-radius: 6px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+
+.sidebar-toggle:hover {
+    background: var(--text-accent);
+    color: #0f172a;
+}
+
+/* Hide content when collapsed */
+.left-sidebar.collapsed .filetree,
+.right-sidebar.collapsed .dg-toc-container,
+.right-sidebar.collapsed .dg-graph-container,
+.right-sidebar.collapsed .dg-backlinks-container,
+.sidebar-right.collapsed * {
+    display: none !important;
+}
+
+/* Show only the toggle when collapsed */
+.left-sidebar.collapsed .sidebar-toggle,
+.right-sidebar.collapsed .sidebar-toggle {
+    display: flex !important;
+}
+
+/* Adjust main content when sidebars collapse */
+.main-content {
+    transition: margin 0.3s ease;
+}
