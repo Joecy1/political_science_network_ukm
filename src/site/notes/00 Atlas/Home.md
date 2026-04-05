@@ -3,53 +3,49 @@
 ---
 
 
-# Political Science & Critical Knowledge Commons
-
-> A community platform for students, academics, and early-career researchers to contribute rigorous, open, and critical knowledge in political science.
-
-**We bridge rigorous editorial standards with open community participation.**
-
-[Explore Concepts]([[00 Atlas/Concepts\|Concepts]])  [Browse Library]([[00 Atlas/Library\|Library]])  [Contribute →]([[00 Atlas/About#how-to-contribute\|About#how-to-contribute]])
-
----
+<div class="hero">
+  <h1>Political Science & Critical Knowledge Commons</h1>
+  <p class="hero-subtitle">A community platform bridging rigorous scholarship and open participation in political science and critical theory.</p>
+  
+  <div class="hero-ctas">
+    <a href="[[00 Atlas/Concepts\|Concepts]]" class="cta-button primary">🧠 Explore Concepts</a>
+    <a href="[[00 Atlas/Library\|Library]]" class="cta-button">📚 Browse Library</a>
+    <a href="[[00 Atlas/About#how-to-contribute\|About#how-to-contribute]]" class="cta-button">✍️ Contribute Your Work</a>
+  </div>
+</div>
 
 ## Featured Essay
-![[Library/Original Essays/Featured-Essay-Slug\|Library/Original Essays/Featured-Essay-Slug]]  <!-- Replace with your actual note -->
+![[Library/Original Essays/Featured-Essay-Slug\|Library/Original Essays/Featured-Essay-Slug]]
 
 ## Concept of the Week
 **[[Concepts/Critical Frameworks/Postcolonialism & Decoloniality\|Concepts/Critical Frameworks/Postcolonialism & Decoloniality]]**
 
-> Short snapshot (100–150 words) here...
+> Snapshot description here...
 
-[Read full deep-dive →]([[Concepts/Critical Frameworks/Postcolonialism & Decoloniality\|Concepts/Critical Frameworks/Postcolonialism & Decoloniality]])
+[Read deep-dive →]([[Concepts/Critical Frameworks/Postcolonialism & Decoloniality\|Concepts/Critical Frameworks/Postcolonialism & Decoloniality]])
 
-## Latest Curated Reads
-- [[Library/Curated Reads/Example-Curated-Read-1\|Library/Curated Reads/Example-Curated-Read-1]] — *Editorial annotation: why this matters*
-- [[Library/Curated Reads/Example-Curated-Read-2\|Library/Curated Reads/Example-Curated-Read-2]]
-- [[Library/Curated Reads/Example-Curated-Read-3\|Library/Curated Reads/Example-Curated-Read-3]]
+## Current Highlights
 
-## Active Survey
-**Current Survey Title** — *XX responses so far*
-
-[Participate in the Survey →]([[Surveys/Active Surveys/Current-Survey-Slug\|Surveys/Active Surveys/Current-Survey-Slug]])
-
-## Research Spotlight
-[[Library/Research Agenda/Current-Spotlight\|Library/Research Agenda/Current-Spotlight]]
-
-## Upcoming Conferences
-- Event 1 • Date • [Details]([[Community/Conferences/Event-1\|Community/Conferences/Event-1]])
-- Event 2 • Date • [Details]([[Community/Conferences/Event-2\|Community/Conferences/Event-2]])
-
----
+<div class="highlight-grid">
+  <div class="highlight-card">
+    <h3>Active Survey</h3>
+    <p>Current Survey Title — XX responses</p>
+    <a href="[[Surveys/Active Surveys/Current-Survey-Slug\|Surveys/Active Surveys/Current-Survey-Slug]]">Participate →</a>
+  </div>
+  
+  <div class="highlight-card">
+    <h3>Research Spotlight</h3>
+    <p>[[Library/Research Agenda/Current-Spotlight\|Library/Research Agenda/Current-Spotlight]]</p>
+  </div>
+  
+  <div class="highlight-card">
+    <h3>Upcoming Events</h3>
+    <p>Next conferences and CFPs</p>
+    <a href="[[Community/Conferences\|Community/Conferences]]">View all →</a>
+  </div>
+</div>
 
 ### Newsletter
-Stay updated with new concepts, curated reads, community highlights, and research gaps.
+Stay updated with new entries, community contributions, and editorial picks.
 
-[Subscribe to Newsletter]([[Newsletter\|Newsletter]])
-
----
-
-**Made for students and researchers** — Start exploring by layer:
-- **Reference** → [[00 Atlas/Concepts\|Concepts]]
-- **Discourse** → [[00 Atlas/Library\|Library]]
-- **Community** → [[00 Atlas/Community\|Community]]
+[Subscribe →]([[Newsletter\|Newsletter]])
