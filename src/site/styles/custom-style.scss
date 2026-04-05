@@ -1,10 +1,10 @@
 /* =============================================
-   Political Science Network UKM - Custom Styles v2.3
-   Fixed Right Sidebar Graph Overshoot (Local Graph)
+   Political Science Network UKM - Custom Styles v2.4
+   Fixed Graph Overshoot + Sass Syntax Error
    ============================================= */
 
 body {
-    /* Colors - Professional dark theme */
+    /* Colors */
     --background-primary: #0f172a;
     --background-secondary: #1e2937;
     --text-normal: #e2e8f0;
@@ -14,13 +14,13 @@ body {
 
     /* Layout */
     --dg-content-max-width: 860px;
-    --dg-sidebar-max-width: 340px;        /* Reduced for safety */
+    --dg-sidebar-max-width: 340px;
     --dg-sidebar-gap: 70px;
     --dg-sidebar-container-padding: 16px;
 
-    /* Graph - Strict limits */
+    /* Graph strict limits */
     --dg-graph-width: 100%;
-    --dg-graph-height: 240px;             /* Smaller default height */
+    --dg-graph-height: 240px;
     --dg-graph-border-radius: 12px;
 }
 
@@ -35,7 +35,6 @@ body {
     box-sizing: border-box !important;
 }
 
-/* Main graph container fixes */
 .dg-graph-container,
 .local-graph-container,
 .graph-container,
@@ -53,7 +52,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* Force SVG to stay inside bounds */
 .dg-graph-container svg,
 .local-graph svg,
 .graph svg {
@@ -65,7 +63,6 @@ body {
     overflow: hidden !important;
 }
 
-/* Extra containment for any wrapper */
 .dg-graph-wrapper,
 .local-graph-wrapper {
     width: 100% !important;
@@ -73,17 +70,18 @@ body {
     overflow: hidden !important;
 }
 
-/* Backlinks / "Pages mentioning this page" section */
 .dg-backlinks-container,
 .backlinks {
     width: 100% !important;
     max-width: 100% !important;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments - properly nested */
 @media (max-width: 1300px) {
-    --dg-sidebar-max-width: 310px;
-    --dg-graph-height: 220px;
+    body {
+        --dg-sidebar-max-width: 310px;
+        --dg-graph-height: 220px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -92,7 +90,7 @@ body {
     }
 }
 
-/* General content polish */
+/* General polish */
 .content {
     border-radius: 16px;
     padding: 2.5rem 3rem;
