@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/00-atlas/knowledge-graphs-explainable-advantage-over-unexplainable-ai/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T00:28:51.045+08:00"}
+{"dg-publish":true,"title":"Knowledge Graphs Explainable Advantage Over Unexplainable AI","permalink":"/00-atlas/knowledge-graphs-explainable-advantage-over-unexplainable-ai/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T00:28:51.045+08:00"}
 ---
 
 # Knowledge Graphs: The Explainable Advantage Over Unexplainable AI
