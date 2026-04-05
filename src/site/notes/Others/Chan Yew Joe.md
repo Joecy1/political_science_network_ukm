@@ -3,7 +3,7 @@
 ---
 
 Why do I contribute to these pages?
-For general purpose wise, I have written them in the [[Others/Purpose\|Purpose]] page. For personal purpose wise, i believe it is 
+For general purpose wise, I have written them in the [[Others/Purpose\|Others/Purpose]] page. For personal purpose wise, i believe it is 
 
 It is my *practice*[^1]. 
 

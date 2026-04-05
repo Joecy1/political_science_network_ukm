@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/00-atlas/political-science-network/","tags":["gardenEntry"],"noteIcon":"","created":"2025-02-28T15:55:18.520+08:00"}
 ---
 
-- [[Others/Purpose\|Purpose]]
+- [[Others/Purpose\|Others/Purpose]]
 - [[01 Political Science/Guide of the website\|Guide of the website]]
 - [[Map of Content\|Map of Content]]
 - [[01 Political Science/UKM Political science semester\|UKM Political science semester]]

@@ -9,7 +9,7 @@
 - [[01 Political Science/Syllabus/Sem 5/SKSJ3133 Politik Eropah/SKSJ3123 Politik Eropah\|SKSJ3123 Politik Eropah]]
 - [[01 Political Science/Syllabus/Sem 5/SKSK3123 Politik Amerika/SKSK3123 Politik Amerika\|SKSK3123 Politik Amerika]]
 - [[01 Political Science/Syllabus/Sem 5/SKSJ3153 Politik Hubungan Etnik (PHE)/SKSJ3153 Politik Hubungan Etnik\|SKSJ3153 Politik Hubungan Etnik]]
-- [[01 Political Science/Syllabus/Sem 5/SKSJ3013 Politik dan Masyarakat/SKSJ3013 Politik dan Masyarakat\|SKSJ3013 Politik dan Masyarakat]]
+- [[SKSJ3013 Politik dan Masyarakat/SKSJ3013 Politik dan Masyarakat\|SKSJ3013 Politik dan Masyarakat]]
 - [[Others/Year 3 Sem 1 Exam Preparation\|Others/Year 3 Sem 1 Exam Preparation]]
 - [[Others/Year 3 Sem 1 Syllabus\|Others/Year 3 Sem 1 Syllabus]]
 - [[Others/Year 3 Sem 1 Assignment\|Others/Year 3 Sem 1 Assignment]]
