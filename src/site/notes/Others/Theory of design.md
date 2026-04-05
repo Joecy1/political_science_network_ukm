@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/theory-of-design/","noteIcon":"","created":"2025-02-28T15:55:15.116+08:00"}
+{"dg-publish":true,"source":"zotero","type":"book","authors":"Herbert A. Simon","citekey":"[[simonSciencesArtificial2008]]","permalink":"/others/theory-of-design/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.116+08:00"}
 ---
 
 ## THE EVALUATION OF DESIGNS 

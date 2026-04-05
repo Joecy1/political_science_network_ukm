@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/purpose/","noteIcon":"","created":"2025-02-28T15:55:15.045+08:00"}
+{"dg-publish":true,"permalink":"/others/purpose/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.045+08:00"}
 ---
 
 The purpose of this website is to be a stream of conversation for people. For people to deliberate about the kind of polity, society and economics they want to live in. 

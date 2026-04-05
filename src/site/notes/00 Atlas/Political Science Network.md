@@ -1,15 +1,15 @@
 ---
-{"dg-publish":true,"permalink":"/00-atlas/political-science-network/","tags":["gardenEntry"],"noteIcon":"","created":"2025-02-28T15:55:18.520+08:00"}
+{"dg-home":true,"dg-publish":true,"permalink":"/00-atlas/political-science-network/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:18.520+08:00"}
 ---
 
 - [[Others/Purpose\|Others/Purpose]]
 - [[01 Political Science/Guide of the website\|Guide of the website]]
 - [[Map of Content\|Map of Content]]
 - [[01 Political Science/UKM Political science semester\|UKM Political science semester]]
-- [[Multimodal learning method\|Multimodal learning method]]
+- [[10 Encounter/Multimodal learning method\|Multimodal learning method]]
 - Real world application and case study
 - [[People\|People]]
-- [[Malaysia Polity\|Malaysia polity]]
+- [[10 Encounter/Malaysia Polity\|Malaysia Polity]]
 - [[Malaysia history\|Malaysia history]]
 - [[Others/ASEAN\|ASEAN]]
 - [[European union\|European union]]

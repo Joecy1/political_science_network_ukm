@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/lecture-and-real-world/","noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
+{"dg-publish":true,"x":"[[Political Science Network]]","permalink":"/others/lecture-and-real-world/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
 ---
 
 
@@ -24,7 +24,7 @@ The relationships between lectures and the world
 	- TPM
 	- APR
 - What the information out there offers
-	- [[Library\|Library]]
+	- [[00 Atlas/Library\|Library]]
 	- [[Others/Archive.org\|Archive.org]]
 	- [[YouTube playlist\|YouTube playlist]]
 - What [[the world\|the world]] is

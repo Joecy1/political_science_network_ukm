@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-political-science/guide-of-the-website/","noteIcon":"","created":"2025-02-28T15:55:15.709+08:00"}
+{"dg-publish":true,"permalink":"/01-political-science/guide-of-the-website/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.709+08:00"}
 ---
 
 The website strive to create value for these groups of audience: 

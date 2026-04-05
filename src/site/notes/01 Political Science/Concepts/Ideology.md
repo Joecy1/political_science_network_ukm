@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/01-political-science/concepts/ideology/","noteIcon":"","created":"2025-02-28T15:55:15.595+08:00"}
+{"dg-publish":true,"permalink":"/01-political-science/concepts/ideology/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.595+08:00"}
 ---
 
 # Ideology

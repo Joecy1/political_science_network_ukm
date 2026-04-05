@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/a-knowledge-marketplace/","noteIcon":"","created":"2025-02-28T15:55:22.206+08:00"}
+{"dg-publish":true,"permalink":"/others/a-knowledge-marketplace/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:22.206+08:00"}
 ---
 
 ### Survey, panels, and lectures - Contributions score

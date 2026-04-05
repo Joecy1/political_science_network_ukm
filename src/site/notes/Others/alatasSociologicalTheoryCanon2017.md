@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/alatas-sociological-theory-canon2017/","title":"Sociological theory beyond the canon","tags":["Source"],"noteIcon":"","created":"2025-02-28T15:55:15.543+08:00"}
+{"tags":["Source"],"title":"Sociological theory beyond the canon","authors":"Farid Alatas, Vineeta Sinha","year":2017,"publisher":null,"keywords":null,"citekey":"alatasSociologicalTheoryCanon2017","dg-publish":true,"permalink":"/others/alatas-sociological-theory-canon2017/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.543+08:00"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/value-creation/","noteIcon":"","created":"2025-02-28T15:55:15.086+08:00"}
+{"dg-publish":true,"permalink":"/others/value-creation/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.086+08:00"}
 ---
 
 When building this place, we have one thing in mind - value creation. But what is value in the first place? Value creation for an academics means pushing the frontier of knowledge, looking for gaps in existing knowledge be it the results, the methods, the inferences, the interpretation and then seek to reconfigure or integrate them in a way that has never done before. 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/jenniferbothamley-dictionary-theories1993/","title":"Dictionary of Theories","tags":["Source","theory"],"noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
+{"dg-publish":true,"tags":["Source","theory"],"title":"Dictionary of Theories","authors":null,"year":1993,"publisher":null,"keywords":null,"citekey":"jenniferbothamleyDictionaryTheories1993","permalink":"/others/jenniferbothamley-dictionary-theories1993/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
 ---
 
 

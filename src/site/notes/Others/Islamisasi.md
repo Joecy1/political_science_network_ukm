@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/others/islamisasi/","noteIcon":"","created":"2025-02-28T15:55:15.305+08:00"}
+{"dg-publish":true,"permalink":"/others/islamisasi/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.305+08:00"}
 ---
 
 *Islamisation*
