@@ -102,27 +102,31 @@ h1 {
     border-bottom: 3px solid var(--text-accent);
 }
 
-/* ====================== HOMEPAGE STYLING ====================== */
+/* ====================== HOMEPAGE HERO & CARDS ====================== */
 
 .hero {
     text-align: center;
-    padding: 3.5rem 2rem;
-    background: linear-gradient(135deg, #1e2937, #0f172a);
-    border-radius: 16px;
+    padding: 4.5rem 2rem 3.5rem;
+    background: linear-gradient(135deg, #1e2937 0%, #0f172a 100%);
+    border-radius: 20px;
     margin-bottom: 3rem;
-    border: 1px solid rgba(34, 211, 238, 0.15);
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero h1 {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
+    line-height: 1.1;
     margin-bottom: 1rem;
+    color: #e2e8f0;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.28rem;
     color: var(--text-muted);
-    max-width: 680px;
-    margin: 0 auto 2rem auto;
+    max-width: 720px;
+    margin: 0 auto 2.5rem auto;
+    line-height: 1.5;
 }
 
 .cta-buttons {
@@ -133,27 +137,51 @@ h1 {
 }
 
 .cta-button {
-    padding: 12px 26px;
-    border-radius: 8px;
-    background: var(--background-secondary);
-    color: var(--text-normal);
+    padding: 14px 32px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
+    font-size: 1.05rem;
     transition: all 0.25s ease;
-    border: 1px solid rgba(148, 163, 184, 0.2);
+    display: inline-block;
+}
+
+.cta-button.primary {
+    background: var(--text-accent);
+    color: #0f172a;
+}
+
+.cta-button:not(.primary) {
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    border: 1px solid rgba(148, 163, 184, 0.3);
 }
 
 .cta-button:hover {
-    background: var(--text-accent);
-    color: #0f172a;
     transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(34, 211, 238, 0.25);
 }
 
-/* Make sections look like cards */
-.highlight-section {
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2.5rem 0;
+}
+
+.highlight-card {
     background: var(--background-secondary);
-    padding: 1.8rem;
-    border-radius: 12px;
-    margin: 1.5rem 0;
-    border: 1px solid rgba(148, 163, 184, 0.1);
+    padding: 1.8rem 1.6rem;
+    border-radius: 14px;
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    transition: transform 0.2s ease;
+}
+
+.highlight-card:hover {
+    transform: translateY(-4px);
+}
+
+.highlight-card h3 {
+    color: var(--text-accent);
+    margin: 0 0 0.8rem 0;
 }
