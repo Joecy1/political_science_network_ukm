@@ -1,13 +1,132 @@
+/* =============================================
+   Political Science Network UKM - Custom Styles
+   Modern Academic Digital Garden
+   ============================================= */
+
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+    /* Base Colors - Professional & Trustworthy */
+    --background-primary: #0f172a;           /* Deep navy background */
+    --background-secondary: #1e2937;         /* Slightly lighter panels */
+    --background-primary-alt: #334155;
+    
+    --text-normal: #e2e8f0;
+    --text-muted: #94a3b8;
+    --text-faint: #64748b;
+    --text-accent: #22d3ee;                  /* Bright teal accent */
+    --text-accent-hover: #67e8f9;
+    
+    --link-color: #60a5fa;
+    --link-color-hover: #93c5fd;
+    
+    /* Layout Improvements */
+    --dg-content-max-width: 860px;           /* Wider content area */
+    --dg-content-font-size: 17.5px;
+    --dg-content-line-height: 1.75;
+    --dg-content-margin-top: 100px;
+    --dg-content-margin-top-mobile: 80px;
+    
+    /* Sidebar */
+    --dg-sidebar-max-width: 380px;
+    --dg-sidebar-gap: 90px;
+    
+    /* Typography */
+    --dg-filetree-title-size: 28px;
+    
+    /* Search */
+    --dg-search-box-radius: 20px;
+    --dg-search-input-radius: 12px;
+    
+    /* Graph */
+    --dg-graph-node-color: #22d3ee;
+    --dg-graph-node-color-muted: #64748b;
+    --dg-graph-bg: #0f172a;
+}
+
+/* Extra Polish - Modern Touches */
+
+.content {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--background-primary);
+    border-radius: 16px;
+    padding: 2.5rem 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+/* Headings - Academic Feel */
+h1, h2, h3, h4, h5, h6 {
+    color: #e2e8f0;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+h1 {
+    font-size: 2.4rem;
+    border-bottom: 3px solid var(--text-accent);
+    padding-bottom: 0.8rem;
+}
+
+h2 {
+    font-size: 1.85rem;
+    margin-top: 2.5rem;
+}
+
+/* Links */
+a {
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: var(--link-color-hover);
+    text-decoration-thickness: 2px;
+}
+
+/* Nice hover on note links in filetree & backlinks */
+.dg-notelink:hover,
+.backlink-card:hover {
+    background-color: rgba(34, 211, 238, 0.08) !important;
+    border-left-color: var(--text-accent) !important;
+}
+
+/* Search box - More prominent */
+.dg-search-input {
+    background: var(--background-secondary);
+    border: 2px solid rgba(34, 211, 238, 0.2);
+}
+
+.dg-search-input:focus {
+    border-color: var(--text-accent);
+    box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.15);
+}
+
+/* Navbar improvements */
+.navbar {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .content {
+        padding: 1.8rem 1.5rem;
+        border-radius: 12px;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Optional: Subtle gradient background */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+    z-index: -1;
+    opacity: 0.6;
 }
