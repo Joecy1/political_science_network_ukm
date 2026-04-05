@@ -1,10 +1,10 @@
 /* =============================================
-   Political Science Network UKM - Custom Styles v2.2
-   Stronger Right Sidebar Graph Overshoot Fix
+   Political Science Network UKM - Custom Styles v2.3
+   Fixed Right Sidebar Graph Overshoot (Local Graph)
    ============================================= */
 
 body {
-    /* Colors */
+    /* Colors - Professional dark theme */
     --background-primary: #0f172a;
     --background-secondary: #1e2937;
     --text-normal: #e2e8f0;
@@ -14,17 +14,17 @@ body {
 
     /* Layout */
     --dg-content-max-width: 860px;
-    --dg-sidebar-max-width: 350px;        /* Reduced to give more breathing room */
+    --dg-sidebar-max-width: 340px;        /* Reduced for safety */
     --dg-sidebar-gap: 70px;
     --dg-sidebar-container-padding: 16px;
 
-    /* Graph specific - stricter limits */
+    /* Graph - Strict limits */
     --dg-graph-width: 100%;
-    --dg-graph-height: 260px;
+    --dg-graph-height: 240px;             /* Smaller default height */
     --dg-graph-border-radius: 12px;
 }
 
-/* ============== CORE GRAPH OVERSHOOT FIX ============== */
+/* ============== STRONG GRAPH OVERSHOOT FIX ============== */
 
 .sidebar-right,
 .dg-right-sidebar {
@@ -33,13 +33,13 @@ body {
     overflow-x: hidden !important;
     overflow-y: auto !important;
     box-sizing: border-box !important;
-    flex-shrink: 0;
 }
 
-/* Graph container - very strict containment */
+/* Main graph container fixes */
 .dg-graph-container,
 .local-graph-container,
-.graph-container {
+.graph-container,
+.dg-local-graph {
     width: 100% !important;
     max-width: 100% !important;
     height: var(--dg-graph-height) !important;
@@ -50,40 +50,45 @@ body {
     border: 1px solid rgba(148, 163, 184, 0.2);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     box-sizing: border-box !important;
+    margin-bottom: 20px;
 }
 
-/* Force the SVG inside the graph to respect boundaries */
+/* Force SVG to stay inside bounds */
 .dg-graph-container svg,
-.local-graph svg {
+.local-graph svg,
+.graph svg {
     width: 100% !important;
     height: 100% !important;
     max-width: 100% !important;
     max-height: 100% !important;
-    display: block;
+    display: block !important;
+    overflow: hidden !important;
 }
 
-/* Prevent any child elements from breaking out */
-.dg-graph-container * {
-    box-sizing: border-box !important;
-}
-
-/* Make sure TOC and Backlinks don't get pushed by graph */
-.dg-toc-container,
-.dg-backlinks-container {
+/* Extra containment for any wrapper */
+.dg-graph-wrapper,
+.local-graph-wrapper {
     width: 100% !important;
     max-width: 100% !important;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
-/* Responsive safety */
+/* Backlinks / "Pages mentioning this page" section */
+.dg-backlinks-container,
+.backlinks {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+/* Responsive adjustments */
 @media (max-width: 1300px) {
-    --dg-sidebar-max-width: 320px;
-    --dg-graph-height: 240px;
+    --dg-sidebar-max-width: 310px;
+    --dg-graph-height: 220px;
 }
 
 @media (max-width: 768px) {
     .sidebar-right {
-        display: none !important;   /* Default behavior - hides on mobile */
+        display: none !important;
     }
 }
 
@@ -93,4 +98,8 @@ body {
     padding: 2.5rem 3rem;
     background: var(--background-primary);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    border-bottom: 3px solid var(--text-accent);
 }
