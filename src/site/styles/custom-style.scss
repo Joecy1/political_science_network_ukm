@@ -259,3 +259,76 @@ h1 {
 .main-content {
     transition: margin 0.3s ease;
 }
+
+/* ====================== SAFE HOMEPAGE STYLING ====================== */
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem 3rem;
+    background: linear-gradient(135deg, #1e2937, #0f172a);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    border: 1px solid rgba(34, 211, 238, 0.2);
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    max-width: 700px;
+    margin: 0 auto 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 14px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+.cta-button.primary {
+    background: #22d3ee;
+    color: #0f172a;
+}
+
+.cta-button:not(.primary) {
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    border: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(34, 211, 238, 0.3);
+}
+
+.highlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2.5rem 0;
+}
+
+.highlight-card {
+    background: var(--background-secondary);
+    padding: 1.8rem;
+    border-radius: 14px;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+}
+
+.highlight-card h3 {
+    color: var(--text-accent);
+    margin-top: 0;
+}
