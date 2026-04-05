@@ -1,136 +1,96 @@
 /* =============================================
-   Political Science Network UKM - Custom Styles v2.1
-   Fixed right sidebar graph overshoot + modern academic look
+   Political Science Network UKM - Custom Styles v2.2
+   Stronger Right Sidebar Graph Overshoot Fix
    ============================================= */
 
 body {
-    /* Professional dark academic palette */
+    /* Colors */
     --background-primary: #0f172a;
     --background-secondary: #1e2937;
-    --background-primary-alt: #334155;
-    
     --text-normal: #e2e8f0;
     --text-muted: #94a3b8;
-    --text-faint: #64748b;
-    --text-accent: #22d3ee;           /* Teal accent */
-    --text-accent-hover: #67e8f9;
-    
+    --text-accent: #22d3ee;
     --link-color: #60a5fa;
-    --link-color-hover: #93c5fd;
 
     /* Layout */
     --dg-content-max-width: 860px;
-    --dg-content-font-size: 17.5px;
-    --dg-content-line-height: 1.75;
-    --dg-content-margin-top: 100px;
-    --dg-content-margin-top-mobile: 80px;
-
-    /* Right Sidebar Improvements */
-    --dg-sidebar-max-width: 360px;        /* Slightly narrower to prevent squeeze */
-    --dg-sidebar-gap: 80px;
+    --dg-sidebar-max-width: 350px;        /* Reduced to give more breathing room */
+    --dg-sidebar-gap: 70px;
     --dg-sidebar-container-padding: 16px;
-    --dg-sidebar-container-height: 88vh;
 
-    /* Graph Fixes - This is the key part for overshoot */
-    --dg-graph-width: 100%;               /* Use full available width instead of fixed px */
-    --dg-graph-height: 280px;             /* Reasonable fixed height */
+    /* Graph specific - stricter limits */
+    --dg-graph-width: 100%;
+    --dg-graph-height: 260px;
     --dg-graph-border-radius: 12px;
-    --dg-graph-margin-bottom: 24px;
-    
-    /* Fullscreen graph (when expanded) */
-    --dg-graph-fullscreen-width: 92vw;
-    --dg-graph-fullscreen-height: 88vh;
-
-    /* Other refinements */
-    --dg-toc-max-height: 240px;
-    --dg-backlinks-max-height: 260px;
 }
 
-/* ============== GRAPH OVERSHOOT FIXES ============== */
+/* ============== CORE GRAPH OVERSHOOT FIX ============== */
 
+.sidebar-right,
+.dg-right-sidebar {
+    width: var(--dg-sidebar-max-width) !important;
+    max-width: var(--dg-sidebar-max-width) !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    box-sizing: border-box !important;
+    flex-shrink: 0;
+}
+
+/* Graph container - very strict containment */
 .dg-graph-container,
-.local-graph,
-.global-graph {
+.local-graph-container,
+.graph-container {
     width: 100% !important;
     max-width: 100% !important;
+    height: var(--dg-graph-height) !important;
+    max-height: var(--dg-graph-height) !important;
     overflow: hidden !important;
     border-radius: var(--dg-graph-border-radius);
     background: var(--background-secondary);
-    border: 1px solid rgba(148, 163, 184, 0.15);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box !important;
 }
 
-.dg-graph-container svg {
+/* Force the SVG inside the graph to respect boundaries */
+.dg-graph-container svg,
+.local-graph svg {
     width: 100% !important;
     height: 100% !important;
-    max-height: var(--dg-graph-height);
+    max-width: 100% !important;
+    max-height: 100% !important;
+    display: block;
 }
 
-/* Prevent graph from pushing other elements (TOC / Backlinks) */
-.sidebar-right .dg-graph-container {
-    flex-shrink: 0;
-    margin-bottom: var(--dg-graph-margin-bottom);
+/* Prevent any child elements from breaking out */
+.dg-graph-container * {
+    box-sizing: border-box !important;
 }
 
-/* Make sure the entire right sidebar doesn't overflow */
-.sidebar-right {
-    overflow-x: hidden !important;
-    overflow-y: auto !important;
-    scrollbar-width: thin;
+/* Make sure TOC and Backlinks don't get pushed by graph */
+.dg-toc-container,
+.dg-backlinks-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden;
 }
 
-/* Extra safety for small/medium screens */
-@media (max-width: 1200px) {
+/* Responsive safety */
+@media (max-width: 1300px) {
     --dg-sidebar-max-width: 320px;
-    
-    .dg-graph-container {
-        --dg-graph-height: 240px;
-    }
+    --dg-graph-height: 240px;
 }
 
 @media (max-width: 768px) {
     .sidebar-right {
-        display: none;                    /* Right sidebar auto-hides on mobile (as designed) */
+        display: none !important;   /* Default behavior - hides on mobile */
     }
 }
 
-/* ============== General Polish (kept from previous) ============== */
-
+/* General content polish */
 .content {
-    background: var(--background-primary);
     border-radius: 16px;
     padding: 2.5rem 3rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(148, 163, 184, 0.1);
-}
-
-h1 {
-    font-size: 2.4rem;
-    border-bottom: 3px solid var(--text-accent);
-    padding-bottom: 0.8rem;
-}
-
-a:hover {
-    color: var(--link-color-hover);
-}
-
-/* Search & Navbar improvements */
-.navbar {
-    background: rgba(15, 23, 42, 0.96);
-    backdrop-filter: blur(12px);
-}
-
-.dg-search-input:focus {
-    border-color: var(--text-accent);
-    box-shadow: 0 0 0 4px rgba(34, 211, 238, 0.15);
-}
-
-/* Subtle background */
-body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
-    z-index: -1;
-    opacity: 0.7;
+    background: var(--background-primary);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
