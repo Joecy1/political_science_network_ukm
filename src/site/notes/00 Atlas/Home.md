@@ -3,21 +3,22 @@
 ---
 
 
-# Political Science & Critical Knowledge Commons
-
-> A community platform bridging rigorous scholarship and open participation in political science and critical theory.
-
-We connect **Reference** (stable concepts), **Discourse** (essays & analysis), and **Community** (theses, surveys, gaps) layers.
-
-### Quick Navigation
-- [🧠 Explore Concepts]([[00 Atlas/Concepts\|Concepts]])
-- [📚 Browse Library]([[00 Atlas/Library\|Library]])
-- [✍️ Contribute Your Work]([[00 Atlas/About#how-to-contribute\|About#how-to-contribute]])
-
----
+<div class="hero">
+  <h1>Political Science & Critical Knowledge Commons</h1>
+  <p class="hero-subtitle">
+    A community platform bridging rigorous scholarship and open participation 
+    in political science and critical theory.
+  </p>
+  
+  <div class="cta-buttons">
+    <a href="[[00 Atlas/Concepts\|Concepts]]" class="cta-button primary">🧠 Explore Concepts</a>
+    <a href="[[00 Atlas/Library\|Library]]" class="cta-button">📚 Browse Library</a>
+    <a href="[[00 Atlas/About#how-to-contribute\|About#how-to-contribute]]" class="cta-button">✍️ Contribute Your Work</a>
+  </div>
+</div>
 
 ## Featured Essay
-![[Library/Original Essays/Featured-Essay-Slug\|Library/Original Essays/Featured-Essay-Slug]]   <!-- ← Replace with your real note name -->
+![[Library/Original Essays/Featured-Essay-Slug\|Library/Original Essays/Featured-Essay-Slug]]   <!-- Replace with your actual featured essay note -->
 
 ---
 
@@ -33,21 +34,29 @@ We connect **Reference** (stable concepts), **Discourse** (essays & analysis), a
 
 ## Current Highlights
 
-**Active Survey**  
-Current Survey Title — XX responses so far  
-[Participate now →]([[Surveys/Active Surveys/Current-Survey-Slug\|Surveys/Active Surveys/Current-Survey-Slug]])
-
-**Research Spotlight**  
-[[Library/Research Agenda/Current-Spotlight\|Library/Research Agenda/Current-Spotlight]]
-
-**Upcoming Events**  
-Next conferences and CFPs  
-[View all →]([[Community/Conferences\|Community/Conferences]])
+<div class="highlight-grid">
+  <div class="highlight-card">
+    <h3>Active Survey</h3>
+    <p>Current Survey Title — XX responses so far</p>
+    <a href="[[Surveys/Active Surveys/Current-Survey-Slug\|Surveys/Active Surveys/Current-Survey-Slug]]">Participate now →</a>
+  </div>
+  
+  <div class="highlight-card">
+    <h3>Research Spotlight</h3>
+    <p>[[Library/Research Agenda/Current-Spotlight\|Library/Research Agenda/Current-Spotlight]]</p>
+  </div>
+  
+  <div class="highlight-card">
+    <h3>Upcoming Events</h3>
+    <p>Next conferences and CFPs</p>
+    <a href="[[Community/Conferences\|Community/Conferences]]">View all →</a>
+  </div>
+</div>
 
 ---
 
 ### Newsletter
 
-Stay updated with new concepts, curated reads, community contributions, and research gaps.
+Stay updated with new concepts, curated reads, community contributions, and emerging research gaps.
 
-[Subscribe to Newsletter →]([[Newsletter\|Newsletter]])
+<a href="[[Newsletter\|Newsletter]]" class="cta-button">Subscribe to Newsletter →</a>
