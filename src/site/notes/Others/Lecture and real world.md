@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"x":"[[Political Science Network]]","permalink":"/others/lecture-and-real-world/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
+{"dg-publish":true,"x":"[[Political Science Network Index]]","permalink":"/others/lecture-and-real-world/","dgPassFrontmatter":true,"noteIcon":"","created":"2025-02-28T15:55:15.286+08:00"}
 ---
 
 
