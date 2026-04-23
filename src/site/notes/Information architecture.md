@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/information-architecture/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T07:49:20.711+08:00"}
+{"dg-publish":true,"type":"administration","permalink":"/information-architecture/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T07:49:20.711+08:00"}
 ---
 
 Scalable, high-leverage information system **purpose-driven, flexible, and oriented toward retrieval and synthesis**  guideline

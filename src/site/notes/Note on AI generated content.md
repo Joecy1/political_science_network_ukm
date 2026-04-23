@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/note-on-ai-generated-content/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T07:50:32.023+08:00"}
+{"dg-publish":true,"type":"administration","permalink":"/note-on-ai-generated-content/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T07:50:32.023+08:00"}
 ---
 
 ## Quality control

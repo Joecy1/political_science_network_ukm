@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/guideline-on-topic-selection/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T07:43:05.021+08:00"}
+{"dg-publish":true,"type":"administration","permalink":"/guideline-on-topic-selection/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-06T07:43:05.021+08:00"}
 ---
 
 ### 1. Adopt a Clear Knowledge Architecture
