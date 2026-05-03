@@ -1,7 +1,8 @@
-<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-container" id="globalsearch" onclick="toggleSearch()" role="dialog" aria-modal="true" aria-labelledby="search-dialog-label" hidden>
     <div class="search-box" onclick="event.stopPropagation()">
         <div class="search-header">
-            <input type="search" id="term" placeholder="{{ meta.uiStrings.searchPlaceholder }}">
+            <label id="search-dialog-label" class="sr-only" for="term">Global search</label>
+            <input type="search" id="term" placeholder="{{ meta.uiStrings.searchPlaceholder }}" autocomplete="off">
         </div>
 
         <div class="search-layout no-preview" id="search-layout">
