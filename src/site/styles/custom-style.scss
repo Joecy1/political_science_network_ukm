@@ -429,3 +429,48 @@ input[type="search"]:focus-visible {
 .quick-access-item:hover { border-color: rgba(34, 211, 238, 0.45); }
 @media (max-width: 1000px) { .quick-access { grid-template-columns: repeat(2, minmax(150px, 1fr)); } }
 @media (max-width: 600px) { .quick-access { grid-template-columns: 1fr; } }
+
+
+/* Strong collapse behavior */
+.filetree-wrapper.collapsed {
+    width: 60px !important;
+    min-width: 60px !important;
+}
+
+aside.collapsed {
+    width: 50px !important;
+    min-width: 50px !important;
+}
+
+.left-sidebar.collapsed .folder,
+.left-sidebar.collapsed .search-button,
+.left-sidebar.collapsed .site-logo,
+.left-sidebar.collapsed h1,
+.right-sidebar.collapsed .sidebar-container {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.left-sidebar.collapsed .sidebar-toggle,
+.right-sidebar.collapsed .sidebar-toggle {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+
+/* Mobile-first readability and tap targets */
+@media (max-width: 768px) {
+    .content {
+        padding: 1.25rem 1rem;
+        border-radius: 12px;
+    }
+
+    .quick-access-item {
+        padding: 0.9rem;
+        min-height: 72px;
+    }
+
+    .search-button {
+        min-height: 40px;
+        padding: 0 10px;
+    }
+}
