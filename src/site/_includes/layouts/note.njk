@@ -25,6 +25,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
+    {%include "components/quickAccess.njk"%}
 
     <main class="content cm-s-obsidian print {{contentClasses}}">
       <header>
@@ -92,6 +93,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    <script src="/scripts/collapsible-sidebars.js"></script>
     {% if contentClasses and "canvas-page" in contentClasses %}
       {%include "components/canvasScript.njk"%}
     {% endif %}
