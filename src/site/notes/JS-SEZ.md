@@ -61,7 +61,8 @@ V --> W2[Move Late Lower Risk]
 V --> W3[Multi City Presence Hedge Risk]
 ```
 
-
+- https://www.businesstimes.com.sg/international/asean/johor-delays-js-sez-blueprint-roll-out-further-refinements-targets-launch-h1?utm_source=chatgpt.com
+- https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/stocks-watch-keppel-cdl-capitaland-china-trust-oiltek-kin-global
 
 ![[Infonomics_Information Ecosystem.pdf]]
 

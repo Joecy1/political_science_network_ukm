@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"title":"Political Science & Critical Knowledge Commons","permalink":"/00-atlas/home/","tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-05T23:36:58.512+08:00"}
+{"dg-publish":true,"title":"Political Science & Critical Knowledge Commons","permalink":"/00-atlas/home/","dgPassFrontmatter":true,"noteIcon":"","created":"2026-04-05T23:36:58.512+08:00"}
 ---
 
 
