@@ -8,10 +8,15 @@
 
     window.toggleSearch = function () {
         const searchContainer = document.getElementById('globalsearch');
+        const searchButton = document.querySelector('.search-button');
         if (searchContainer.classList.contains('active')) {
             searchContainer.classList.remove('active');
+            searchContainer.setAttribute('hidden', 'hidden');
+            if (searchButton) searchButton.setAttribute('aria-expanded', 'false');
         } else {
+            searchContainer.removeAttribute('hidden');
             searchContainer.classList.add('active');
+            if (searchButton) searchButton.setAttribute('aria-expanded', 'true');
             document.getElementById('term').focus();
         }
     }
@@ -24,6 +29,16 @@
             window.search();
         }
     }
+
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            const searchContainer = document.getElementById('globalsearch');
+            if (searchContainer && searchContainer.classList.contains('active')) {
+                window.toggleSearch();
+            }
+        }
+    });
 
     const loadingSvg = `
     <div style="display: flex; justify-content: center; padding: 40px;">

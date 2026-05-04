@@ -20,6 +20,8 @@
     {% if settings.dgEnableSearch === true %}
       {%include "components/searchContainer.njk"%}
     {% endif %}
+    {%include "components/homeUX.njk"%}
+    {%include "components/quickAccess.njk"%}
     <main class="content cm-s-obsidian print {{contentClasses}}">
       <header>
       {% if settings.dgShowInlineTitle === true %}
@@ -75,6 +77,7 @@
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    <script src="/scripts/collapsible-sidebars.js"></script>
     {%include "components/basesScript.njk"%}
     </body>
   </html>

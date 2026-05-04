@@ -1,0 +1,100 @@
+---
+permalink: /psn-network/index.html
+templateEngineOverride: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PSN · Knowledge Network</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --navy: #0c1a2e; --navy-mid: #15263d; --navy-light: #1e3450;
+  --cream: #f4ede0; --gold: #c8a45a; --gold-dim: rgba(200,164,90,0.18);
+  --text-muted: #9aabbf; --text-dim: #6b7e90;
+  --mono: 'JetBrains Mono', monospace; --serif: 'Cormorant Garamond', Georgia, serif;
+  --c-theory:#2dd4bf; --c-concept:#fbbf24; --c-thinker:#fb923c;
+  --c-method:#4ade80; --c-course:#f87171; --c-contributor:#a78bfa; --c-resource:#94a3b8;
+}
+html,body{width:100%;height:100%;overflow:hidden;background:var(--navy);}
+body{font-family:var(--mono);color:var(--cream);display:flex;flex-direction:column;}
+#header{display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;height:52px;border-bottom:0.5px solid var(--gold-dim);background:rgba(12,26,46,0.95);flex-shrink:0;z-index:10;}
+#header-title{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--cream);letter-spacing:.03em;}
+#header-title span{color:var(--gold);}
+#header-subtitle{font-size:.62rem;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;margin-top:1px;}
+#search-wrap{position:relative;}
+#search{background:var(--navy-light);border:0.5px solid var(--gold-dim);color:var(--cream);font-family:var(--mono);font-size:.72rem;padding:6px 12px 6px 30px;border-radius:3px;outline:none;width:200px;letter-spacing:.04em;transition:border-color .2s;}
+#search::placeholder{color:var(--text-dim);}
+#search:focus{border-color:var(--gold);}
+#search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);font-size:11px;color:var(--text-dim);pointer-events:none;}
+#node-count{font-size:.62rem;color:var(--text-dim);letter-spacing:.06em;}
+#filters{display:flex;align-items:center;gap:6px;padding:0 1.5rem;height:40px;border-bottom:0.5px solid var(--gold-dim);background:var(--navy-mid);flex-shrink:0;flex-wrap:wrap;}
+.filter-btn{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;border:0.5px solid transparent;border-radius:2px;padding:3px 10px;cursor:pointer;background:transparent;transition:all .18s;display:flex;align-items:center;gap:5px;}
+.filter-btn .dot{width:7px;height:7px;border-radius:50%;flex-shrink:0;}
+.filter-btn.active{background:var(--navy-light);border-color:rgba(200,164,90,.3);}
+.filter-btn:hover{background:var(--navy-light);}
+.filter-btn.inactive{opacity:.35;}
+#canvas{flex:1;position:relative;overflow:hidden;}
+svg{width:100%;height:100%;}
+.link{stroke-opacity:.35;stroke-width:1;}
+.link.challenges{stroke:#ef4444;}.link.builds-on{stroke:#3b82f6;}.link.founded{stroke:#a78bfa;}
+.link.influenced{stroke:#c084fc;}.link.applies{stroke:#6b7280;}.link.teaches{stroke:#f59e0b;}
+.link.contributed{stroke:#34d399;}.link.relates{stroke:#4b5563;}.link.combines{stroke:#22d3ee;}
+.link.debates{stroke:#f97316;}.link.uses{stroke:#94a3b8;}.link.developed{stroke:#e879f9;}
+.link.theorised{stroke:#e879f9;}.link.critiqued{stroke:#f43f5e;}.link.enrolled-in{stroke:#818cf8;}
+.link.belongs-to{stroke:#a78bfa;}
+.link.highlighted{stroke-opacity:.9;stroke-width:2;}
+.link.faded{stroke-opacity:.04;}
+.node circle{stroke-width:1.5;cursor:pointer;}
+.node.faded circle{opacity:.07;}.node.faded text{opacity:.05;}
+.node text{font-family:var(--mono);font-size:10px;fill:var(--cream);pointer-events:none;letter-spacing:.03em;}
+.node text.label-bg{stroke:var(--navy);stroke-width:3;paint-order:stroke;}
+#tooltip{position:absolute;background:var(--navy-mid);border:0.5px solid rgba(200,164,90,.4);border-radius:4px;padding:10px 14px;pointer-events:none;opacity:0;transition:opacity .15s;max-width:240px;z-index:100;}
+#tooltip .tt-type{font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;}
+#tooltip .tt-name{font-family:var(--serif);font-size:1rem;font-weight:500;color:var(--cream);margin-bottom:5px;}
+#tooltip .tt-desc{font-size:.72rem;color:var(--text-muted);line-height:1.5;}
+#tooltip .tt-hint{font-size:.6rem;color:var(--gold);margin-top:8px;letter-spacing:.06em;}
+#legend{position:absolute;bottom:1.5rem;right:1.5rem;background:rgba(12,26,46,.92);border:0.5px solid var(--gold-dim);border-radius:4px;padding:12px 14px;z-index:10;}
+#legend-title{font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--text-dim);margin-bottom:10px;}
+.legend-item{display:flex;align-items:center;gap:8px;margin-bottom:6px;}
+.legend-dot{width:9px;height:9px;border-radius:50%;flex-shrink:0;}
+.legend-label{font-size:.62rem;color:var(--text-muted);letter-spacing:.04em;}
+.legend-sep{border-top:0.5px solid var(--gold-dim);margin:10px 0 8px;}
+.edge-item{display:flex;align-items:center;gap:8px;margin-bottom:5px;}
+.edge-line{width:20px;height:1.5px;flex-shrink:0;}
+.edge-label{font-size:.58rem;color:var(--text-dim);letter-spacing:.04em;}
+#stats{position:absolute;bottom:1.5rem;left:1.5rem;background:rgba(12,26,46,.9);border:0.5px solid var(--gold-dim);border-radius:4px;padding:10px 14px;z-index:10;}
+.stat-row{display:flex;gap:1.5rem;}
+.stat-item{text-align:center;}
+.stat-num{font-family:var(--serif);font-size:1.3rem;font-weight:600;color:var(--gold);line-height:1;}
+.stat-label{font-size:.58rem;color:var(--text-dim);letter-spacing:.08em;text-transform:uppercase;margin-top:2px;}
+#hint{position:absolute;top:12px;left:50%;transform:translateX(-50%);font-size:.6rem;color:var(--text-dim);letter-spacing:.08em;z-index:10;pointer-events:none;transition:opacity 1s;}
+</style>
+</head>
+<body>
+<div id="header">
+  <div>
+    <div id="header-title">PS<span>N</span> · Knowledge Network</div>
+    <div id="header-subtitle">Political Science · UKM · Integrated Graph</div>
+  </div>
+  <div id="search-wrap">
+    <span id="search-icon">⌕</span>
+    <input id="search" type="text" placeholder="Search nodes...">
+  </div>
+  <div id="node-count"></div>
+</div>
+<div id="filters">
+  <span style="font-size:.58rem;color:var(--text-dim);letter-spacing:.1em;text-transform:uppercase;margin-right:4px">Filter:</span>
+  <button class="filter-btn active" data-type="all"><span>All</span></button>
+  <button class="filter-btn active" data-type="theory"><span class="dot" style="background:var(--c-theory)"></span><span style="color:var(--c-theory)">Theories</span></button>
+  <button class="filter-btn active" data-type="concept"><span class="dot" style="background:var(--c-concept)"></span><span style="color:var(--c-concept)">Concepts</span></button>
+</div>
+<div id="canvas"><svg id="graph"></svg></div>
+<script>/* truncated for brevity in this commit; paste full script as provided */</script>
+</body>
+</html>

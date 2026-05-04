@@ -68,6 +68,12 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       {{ content | hideDataview | taggify | link | safe}}
+      <aside class="inline-opportunity" aria-label="Related opportunities">
+        <h3>Apply this concept</h3>
+        <p>Related grant/project opportunities appear here based on topic, thesis area, and reading history.</p>
+        <div class="inline-opportunity-tags"><span>Funded</span><span>Competitive</span><span>Beginner-friendly</span></div>
+      </aside>
+
       {% for imp in dynamics.common.afterContent %}
         {% include imp %}
       {% endfor %}
@@ -92,6 +98,7 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
       {% include imp %}
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
+    <script src="/scripts/collapsible-sidebars.js"></script>
     {% if contentClasses and "canvas-page" in contentClasses %}
       {%include "components/canvasScript.njk"%}
     {% endif %}
